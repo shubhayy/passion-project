@@ -5,7 +5,7 @@ export const headerLinks = [
     },
     {
       label: 'Grade Pathways',
-      route: '/pathways',
+      route: '/pathway',
     },
     {
       label: 'Activities Catalog',

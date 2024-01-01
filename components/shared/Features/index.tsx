@@ -15,9 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "FEATURES",
               subtitle: "What We Offer",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              description: `100% Free servicies, designed to give you all the resources and knowledge needed to be able to get into your dream college`,
             }}
           />
           {/* <!-- Section Title End --> */}

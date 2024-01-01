@@ -28,6 +28,7 @@ export default function Home() {
             initial="hidden"
             animate="visible"
             variants={fadeInVariants}
+            
           >
             <motion.h1
               className="font-semibold text-[40px] leading-[48px] lg:text-[48px] lg:leading-[60px] xl:text-[58px] xl:leading-[74px] text-black"
@@ -41,8 +42,8 @@ export default function Home() {
             >
               Containing Step by Step Guides Personalized to You, An Extensive Extracurricular Lists, and Insider Tips into College Admissions.
             </motion.p>
-            <Button size="lg" asChild className="button w-full sm:w-fit" onClick={handleClick}>
-              <div className='hover:cursor-pointer'>Quick Start</div>
+            <Button size="lg" asChild className="button w-full sm:w-fit bg-mint-500 font-bold " onClick={handleClick}>
+              <div className='hover:cursor-pointer hover:opacity-25 '>Quick Start</div>
             </Button>
           </motion.div>
 
@@ -58,6 +59,25 @@ export default function Home() {
       <section ref={ref}>
         {/* If Feature is a component you want to animate, wrap it with motion components similarly */}
         <Feature />
+      </section>
+      <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10">
+      <div className="container">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4">
+              <div
+                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                data-wow-delay=".2s"
+              >
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Our Mission
+                </h1>
+                <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                For students from lower-income and middle-class backgrounds, the college admissions system can be inherently unfair. It often overlooks the profound impact socioeconomic status has on the opportunities available to students. To address this disparity, we established the College Opportunity Initiative. This initiative aims to provide free knowledge and resources to students, ensuring they have equal access to information. Our goal is to offer every student the fair chance they deserve, empowering them to explore their passions and pursue fields they truly enjoy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
