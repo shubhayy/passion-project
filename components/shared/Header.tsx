@@ -13,7 +13,7 @@ const Header = () => {
             alt="logo" 
           />
         </Link>
-          <nav className="md:flex-between hidden w-full max-w-xs">
+          <nav className="md:flex hidden w-full max-w-xs mr-[13rem]">
             <NavItems />
           </nav>
         <div className="flex w-32 justify-end gap-3">

@@ -1,14 +1,14 @@
 export const headerLinks = [
     {
-      label: 'Home',
+      label: 'Admissions 101',
       route: '/',
     },
     {
-      label: 'Activity Hub',
+      label: 'Extracircular Hub',
       route: '/events/create',
     },
     {
-      label: 'Pathways',
+      label: 'Grade Pathways',
       route: '/profile',
     },
   ]
