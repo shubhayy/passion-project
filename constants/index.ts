@@ -1,16 +1,17 @@
 export const headerLinks = [
     {
       label: 'Admissions 101',
-      route: '/',
-    },
-    {
-      label: 'Extracircular Hub',
-      route: '/events/create',
+      route: '/admissions',
     },
     {
       label: 'Grade Pathways',
-      route: '/profile',
+      route: '/pathways',
     },
+    {
+      label: 'Activities Catalog',
+      route: '/catalog',
+    },
+    
   ]
   
   export const eventDefaultValues = {
